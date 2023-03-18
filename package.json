@@ -1,0 +1,19 @@
+{
+  "name": "webpack-custom-by-me",
+  "version": "1.0.0",
+  "description": "This project for learn webpack 4 ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ducthanh-developer/webpack-4-fundamental.git"
+  },
+  "author": "Nguyễn Thành Đức",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ducthanh-developer/webpack-4-fundamental/issues"
+  },
+  "homepage": "https://github.com/ducthanh-developer/webpack-4-fundamental#readme"
+}
