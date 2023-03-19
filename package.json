@@ -4,7 +4,12 @@
   "description": "This project for learn webpack 4 ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "webpack": "webpack",
+    "debug": "node --inspect --inspect-brk ./node_modules/webpack/bin/webpack.js",
+    "dev": "npm run webpack -- --mode development --watch",
+    "prod": "npm run webpack -- --mode production",
+    "dev:debug": "npm run debug --mode development",
+    "prod:debug": "npm run debug -- --mode production"
   },
   "repository": {
     "type": "git",
@@ -15,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/ducthanh-developer/webpack-4-fundamental/issues"
   },
-  "homepage": "https://github.com/ducthanh-developer/webpack-4-fundamental#readme"
+  "homepage": "https://github.com/ducthanh-developer/webpack-4-fundamental#readme",
+  "dependencies": {
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1"
+  }
 }
