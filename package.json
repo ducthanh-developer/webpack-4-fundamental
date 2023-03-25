@@ -4,7 +4,7 @@
   "description": "This project for learn webpack 4 ",
   "main": "index.js",
   "scripts": {
-    "webpack": "webpack",
+    "webpack": "webpack --mode development",
     "debug": "node --inspect --inspect-brk ./node_modules/webpack/bin/webpack.js",
     "dev": "webpack serve --mode development --open",
     "prod": "webpack --mode production",
@@ -21,8 +21,11 @@
     "url": "https://github.com/ducthanh-developer/webpack-4-fundamental/issues"
   },
   "homepage": "https://github.com/ducthanh-developer/webpack-4-fundamental#readme",
-  "dependencies": {
-    "webpack": "^5.76.2",
-    "webpack-cli": "^5.0.1"
+  "dependencies": {},
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.1"
   }
 }
