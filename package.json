@@ -4,12 +4,12 @@
   "description": "This project for learn webpack 4 ",
   "main": "index.js",
   "scripts": {
-    "webpack": "webpack --mode development",
+    "webpack": "webpack --env mode=development",
     "debug": "node --inspect --inspect-brk ./node_modules/webpack/bin/webpack.js",
-    "dev": "webpack serve --mode development --open",
-    "prod": "webpack --mode production",
-    "dev:debug": "npm run debug --mode development",
-    "prod:debug": "npm run debug --mode production"
+    "dev": "webpack serve --env mode=development --open",
+    "prod": "webpack --env mode=production",
+    "dev:debug": "npm run debug --env mode=development",
+    "prod:debug": "npm run debug --env mode=production"
   },
   "repository": {
     "type": "git",
