@@ -1,4 +1,4 @@
-import "./footer.css"
+
 import { blue, red } from "./button-styles";
 
 // ES module syntax export
