@@ -11,7 +11,9 @@ module.exports = ({ mode, presets } = { mode: "production", presets: [] }) => {
         {
             mode: mode,
             module: {
-                rules: [{ test: /\.jpeg$/, use: ["url-loader"] }],
+                rules: [{ test: /\.jpe?g$/, use: [{loader: "url-loader", options:{
+                    limit: 5000,
+                }}] }],
             },
             output: {
                 filename: "bundle.js",
