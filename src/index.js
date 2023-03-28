@@ -6,6 +6,7 @@ import { makeColorStyle } from "./button-styles";
 import "./footer.css"
 import imageUrl from "./english.jpg";
 import makeImage from "./image";
+import Foo from "./foo.ts";
 
 const image = makeImage(imageUrl);
 const button = makeButton("Yay! A Button");

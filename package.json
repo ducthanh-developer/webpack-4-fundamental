@@ -8,6 +8,7 @@
     "debug": "node --inspect --inspect-brk ./node_modules/webpack/bin/webpack.js",
     "dev": "webpack serve --env mode=development --open --hot",
     "prod": "webpack --env mode=production",
+    "prod:typescript":"npm run prod --env presets=typescript",
     "dev:debug": "npm run debug --env mode=development",
     "prod:debug": "npm run debug --env mode=production"
   },
@@ -28,6 +29,8 @@
     "html-webpack-plugin": "^5.5.0",
     "mini-css-extract-plugin": "^2.7.5",
     "style-loader": "^3.3.2",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.1.0-dev.20230325",
     "url-loader": "^4.1.1",
     "webpack": "^5.76.3",
     "webpack-cli": "^5.0.1",
